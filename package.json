@@ -1,0 +1,49 @@
+{
+  "name": "dino-park-world",
+  "version": "0.1.0",
+  "description": "The location service for DinoPark.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r esm index.js",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "mocha -r esm",
+    "coverage": "nyc mocha -r esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla-iam/dino-park-world.git"
+  },
+  "author": "Florian Merz <fmerz@mozilla.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla-iam/dino-park-world/issues"
+  },
+  "homepage": "https://github.com/mozilla-iam/dino-park-world#readme",
+  "dependencies": {
+    "aws-sdk": "^2.452.0",
+    "body-parser": "^1.19.0",
+    "convict": "^5.0.0",
+    "elasticsearch": "^16.0.0",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "http-aws-es": "^6.0.0",
+    "nyc": "^14.1.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "mocha": "^6.1.4",
+    "mock-fs": "^4.9.0",
+    "node-mocks-http": "^1.7.5",
+    "prettier": "1.17.0",
+    "sinon": "^7.3.2",
+    "tmp": "0.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

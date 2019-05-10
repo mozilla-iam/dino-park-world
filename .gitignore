@@ -1,0 +1,6 @@
+profiles.json
+node_modules/
+.vscode
+.nyc_output/
+**/.terraform/*
+*.txt
