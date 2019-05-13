@@ -11,14 +11,14 @@ describe("Loaders", () => {
   describe("admin codes parsing", () => {
     it("read admin codes", async () => {
       const loader = new Loader(TEST_CONFIG);
-      const map = await loader.loadAdminCodes();
+      const map = await loader._loadAdminCodes();
       map.get("DE.16").should.be.equal("Berlin");
     });
   });
   describe("country parsing", () => {
     it("read countries", async () => {
       const loader = new Loader(TEST_CONFIG);
-      const map = await loader.loadCountries();
+      const map = await loader._loadCountries();
       map.get("DE").should.be.equal("Germany");
     });
   });

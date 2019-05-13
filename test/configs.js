@@ -11,7 +11,10 @@ function load(configObject) {
 const TEST_CONFIG = load({
   port: 8080,
   shutdownTimeout: 10,
-  elasticHost: "localhost:9200"
+  elasticHost: "localhost:9200",
+  citiesFile: "test/data/cities500.txt",
+  countriesFile: "test/data/countryInfo.txt",
+  adminCodesFile: "test/data/admin1CodesASCII.txt"
 });
 
 export { TEST_CONFIG };

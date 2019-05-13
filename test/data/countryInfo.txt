@@ -1,0 +1,1 @@
+DE	DEU	276	GM	Germany	Berlin	357021	81802257	EU	.de	EUR	Euro	49	#####	^(\d{5})$	de	2921044	CH,PL,NL,DK,BE,CZ,LU,FR,AT	
