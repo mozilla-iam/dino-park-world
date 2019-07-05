@@ -1,3 +1,4 @@
 env: dev
 namespace: dinopark-dev
-env_elastic_write_index: v2-dino-park-world
+env_ELASTIC_INDEX: v1-dino-park-world
+env_ELASTIC_WRITE_INDEX: v1-dino-park-world
