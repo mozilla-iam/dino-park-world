@@ -34,6 +34,8 @@ spec:
           env:
             - name: FORCE_UPDATE
               value: "{{ .Values.force_update | default 0 }}"
+            - name: NODE_OPTIONS
+              value: "--max-http-header-size=16384"
             - name: ELASTIC_HOST
               value: "{{ .Values.elastic_host }}"
             {{- range $key, $value := .Values }}{{ if hasPrefix "env_" $key }}
