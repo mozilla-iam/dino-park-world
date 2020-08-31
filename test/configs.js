@@ -14,7 +14,7 @@ const TEST_CONFIG = load({
   elasticHost: "localhost:9200",
   citiesFile: "test/data/cities500.txt",
   countriesFile: "test/data/countryInfo.txt",
-  adminCodesFile: "test/data/admin1CodesASCII.txt"
+  adminCodesFile: "test/data/admin1CodesASCII.txt",
 });
 
 export { TEST_CONFIG };
