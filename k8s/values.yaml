@@ -1,4 +1,4 @@
 name: dino-park-world
 namespace: dino-park
 rev: latest
-elastic_host: elastic-service:9200
+elastic_host: http://elastic-service:9200
