@@ -27,7 +27,7 @@
     "convict": "^6.2.3",
     "convict-format-with-moment": "^6.0.0",
     "esm": "^3.2.25",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-aws-es": "^6.0.0",
     "nyc": "^15.1.0",
     "winston": "^3.3.3"
